@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lali Fitness </title>
+    <!--<link rel="stylesheet" href="project1.css">-->
+    <style>
+        body{
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background-image: url('black.jpg.jpg');
+            font-family: cursive;
+        }
+        .left{
+            display: inline-block;
+            position: absolute;
+            left: 33px;
+            top: 70px;
+           /*border:2px solid red;*/
+        }
+        .mid{
+            display: block;
+            width: 40%;
+            margin: 20px auto;
+            /*border: 2px solid rgb(62, 247, 6);*/
+            border-radius: 12px;
+            background-color: black;
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 70px;
+            display: inline-block;
+           /*border: 2px solid green;*/
+        }
+        .navbar{
+            display: inline-block;
+            border-radius: 10px;
+            
+        }
+        .navbar li{
+            color: white;
+            display: inline-block;
+            font-size: 15px;
+            font-weight: bold;
+            
+        }
+        .navbar li a{
+            color: rgb(39, 250, 11);
+            text-decoration: none;
+            padding: 19px ;
+        }
+        .navbar li a:hover{
+            text-decoration: underline;
+            color: rgb(243, 11, 23);
+        }
+        .head{
+            text-align: center;
+            color: rgb(12, 248, 103);
+        }
+        .btn{
+            margin: 0px,9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border-radius: 12px;
+            font-size: 15px;
+            cursor: pointer;
+            
+        }
+        .btn:hover{
+            background-color: rgb(233, 208, 176);
+        }
+        .container{
+         /*   border: 2px solid green;*/
+            margin: 100px;
+    padding: 11px;
+    width: 300px;
+    border-radius: 47px;
+        }
+        .formgroup input{
+            text-align: center;
+            display: block;
+            width: 265px;
+            padding: 2px;
+          border: 2px solid red;
+            margin: 3px,auto;
+
+        }
+        .container button{
+            width: 300px;
+            display: block;
+            margin: 15px auto;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <h2 class="head">Welcome To Lali fitness!</h2>
+    <header class="first">
+    
+      <div class="left">
+       
+      </div>
+      
+      <div class="mid">
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Fitness calculator</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+     <button class="btn">call us now</button><button class="btn">Email us</button>
+      </div>
+    </header>
+    <div class="container">
+        <h3 class="head">Join the first gym of Varanasi</h3>
+        <form action="noti.php">
+             <div class="formgroup">
+                 Name: <input type="text" placeholder="enter your name">
+             </div>
+             <div class="formgroup">
+                 Age:<input type="number" placeholder="enter your age">
+             </div>
+             <div class="formgroup">
+                 Weight: <input type="number" placeholder="enter your weight">
+             </div>
+             <div class="formgroup">
+                 Mobile no.:<input type="number" placeholder="enter your number">
+             </div>
+             <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+</html>
